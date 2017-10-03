@@ -120,6 +120,7 @@ function main1() {
 function main() {
   echo "Hello"
   pwd
+  terraform
 }
 
 main ${PWD}
