@@ -4,8 +4,8 @@ platform: linux
 image_resource:
   type: docker-image
   source:
-    repository: hashicorp/terraform #relintdockerhubpushbot/cf-deployment-concourse-tasks
-    tag: light #v2.3.0
+    repository: relintdockerhubpushbot/cf-deployment-concourse-tasks
+    tag: v2.3.0
 
 inputs:
 - name: kubo-deployment-ci # - This repo
