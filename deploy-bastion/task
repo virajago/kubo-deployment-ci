@@ -120,7 +120,9 @@ function main1() {
 function main() {
   echo "Hello"
   pwd
-  terraform
+  ls
+  tar -xvf kubo-deployment-latest.tgz
+  cd ./kubo-deployment/docs/user-guide/platforms/gcp
 }
 
 main ${PWD}

@@ -7,8 +7,8 @@ image_resource:
     repository: relintdockerhubpushbot/cf-deployment-concourse-tasks
     tag: v2.3.0
 
-inputs:
-- name: kubo-deployment-ci # - This repo
+#inputs:
+#- name: kubo-deployment-ci # - This repo
 
 run:
   path: kubo-deployment-ci/deploy-bastion/task
