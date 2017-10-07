@@ -121,6 +121,7 @@ function main() {
   echo "Hello"
   pwd
   ls
+  wget https://storage.googleapis.com/kubo-public/kubo-deployment-latest.tgz
   tar -xvf kubo-deployment-latest.tgz
   cd ./kubo-deployment/docs/user-guide/platforms/gcp
 }
